@@ -17,13 +17,8 @@
 </head>
 
 <body>
-    <h1>Sample HTML Page</h1>
-    <p>This is a very simple page to demonstrate basic implementation concepts of websdk</p>
+    <h1>OneTagperPage</h1>
+    <p>OneTagperPage</p>
     <p>See <a href="https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en">Implementing the WEBSDK in Websites with Launch</a> for the complete tutorial</p>
-        
-
-<a class="button" href="#">Option-One Tag per Page</a>
-<a class="button" href="#">Option- Singel Tag -Multiple Category  </a>
-  <a class="button" href="#">Option-Multiple Tag - Multiple Category</a>
 </body>
 </html>
