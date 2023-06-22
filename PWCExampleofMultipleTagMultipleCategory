@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Taxonomy</title>
+   
+    <!--/Preconnect and DNS-Prefetch-->
+    <!--Data Layer to enable rich data collection and targeting-->
+ 
+
+    <!--/Data Layer-->
+    <script>
+
+        
+window.digitalData = window.digitalData || [];
+		window.digitalData.push({
+		"site":{
+"SiteValues":{
+		"industry": "industries/industrial-products/aerospace-defense/defence|industries/financial-services/asset-wealth-management/asset-management-digital-solutions",
+		"industrySection": "industries/industrial-products|industries/financial-services",
+		"economicbuyer": "economic-buyers/chief-finance-office|economic-buyers/chief-risk-office/location",
+		"economicbuyerSection": "economic-buyers/chief-finance-office|economic-buyers/chief-risk-office",
+		}
+	}
+})
+    </script>
+    <!--jQuery or other helper libraries-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!--/jQuery-->
+    <!--Launch Header Embed Code: REPLACE THE NEXT LINE WITH THE EMBED CODE FROM YOUR OWN DEVELOPMENT ENVIRONMENT-->
+<script src="https://assets.adobedtm.com/94ed34440bb5/8f5e0d7e9c6b/launch-7e3cfbfb84af-development.min.js" async></script>
+    
+</head>
+
+<body>
+    <h1>PWCExampleofMultipleTagMultipleCategory</h1>
+    <p>MultipleTagMultipleCategory</p>
+    <p>See <a href="https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en">Implementing the WEBSDK in Websites with Launch</a> for the complete tutorial</p>
+   
+    <h1> Tag Used: "pwc:industries/industrial-products/aerospace-defense/defence"</h1>
+    <h1> Tag Used: "pwc:industries/financial-services"</h1>
+    <h1> Tag Used: "pwc:industries/financial-services/asset-wealth-management/asset-management-digital-solutions"</h1>
+    <h1> Tag Used: "pwc:services/consulting/deals"</h1>
+    <h1> Tag Used: "pwc:services/consulting/deals/capital-markets"</h1>
+
+  <p>AA report Data</p>  
+<p>industries</p> 
+<p>eVar208 ="industries/industrial-products/aerospace-defense/defence|industries/financial-service|industries/financial-services/asset-wealth-management/asset-management-digital-solutions"
+<p>eVar209 ="industries/industrial-products|industries/financial-services|industries/financial-services"
+
+<p>services</p> 
+<p>eVar212 = "services/consulting/deals|services/consulting/deals/capital-markets"</p> 
+<p>eVar213 = "services/consulting|services/consulting"</p> 
+
+<h1>List Var(full tag) </h1>
+<p>industries/industrial-products/aerospace-defense/defence</p> 
+<p>industries/financial-service</p> 
+<p>industries/financial-services/asset-wealth-management/asset-management-digital-solutions</p> 
+<p>services/consulting/deals</p> 
+<p>services/consulting/deals/capital-markets</p> 
+
+<h1>List Var( Parent section) </h1>
+ <p>industries/industrial-products</p> 
+ <p>industries/financial-services</p> 
+ <p>services/consulting</p> 
+<br>
+<h1>Back to Home page </h1>
+	<a class="button" href="index.html">Click to navigate to homepage(index.html)</a><br>
+</body>
+</html>
